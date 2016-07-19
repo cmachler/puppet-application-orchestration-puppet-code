@@ -1,0 +1,12 @@
+---
+corp_website::version: '1.0.0.4-1'
+corp_website::dns: 'www.cert.test.local'
+corp_website::db_username: 'corp_website'
+corp_website::db_password: 'P@ssw0rd!'
+corp_website::root_password: 'P@ssw0rd$'
+corp_website::counter_dns: 'counter.cert.test.local'
+yum::repos:
+        Gemfury_Public:
+          descr: 'Gemfury Public Packages'
+          baseurl: 'https://yum.fury.io/cmachler/'
+          gpgcheck: 0
