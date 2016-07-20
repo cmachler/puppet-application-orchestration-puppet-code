@@ -33,7 +33,7 @@ node default {
 site {
     #Instantiate your corp_website and give it a name
     corp_website { 'corp_website':
-    #Our application has one input parameter: the number of web servers in our application
+    #Our application has two input parameters: the number of web servers and load balancers in our application
     number_webs => 2,
     number_lbs => 2,
     nodes => {
